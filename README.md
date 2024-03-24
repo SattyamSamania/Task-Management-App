@@ -39,3 +39,21 @@ npm run dev
 ```
 
 Once the server is running, open your web browser and go to http://localhost:5173.
+
+## To Start Backend Server 
+
+
+4. Navigate into the server directory and install the dependencies for the Backend:
+
+```bash
+cd backend
+npm install 
+```
+
+5. To start the Server you can run this command: 
+
+```bash
+npm start
+```
+
+Head over to http://localhost:4000 to see the Running Server.
