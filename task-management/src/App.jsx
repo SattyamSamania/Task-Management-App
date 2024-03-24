@@ -5,7 +5,7 @@ import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-    <div className='w-full bg-[#FFFFFF] flex  '>
+    <div className='w-[100%] h-[100vh] bg-[#FFFFFF] flex  '>
 
       <Dashboard/>
       {/* <Navbar/> */}

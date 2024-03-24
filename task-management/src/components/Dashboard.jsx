@@ -25,6 +25,12 @@ const Dashboard = () => {
     <li className=' font-[500] text-[16px] '>Wireframes </li>
 
 </div>
+
+<div className='bg-[#F5F5F5] rounded-md w-[200px] flex-col space-y-3 text-center mx-2 pb-2 '>
+  <h1 className='pt-3 text-[#000000] text-[14px] font-[500]'>Thoughts Time</h1>
+  <p className='text-[#787486]  text-[12px] font-[400]'>We don't have any notice for you, till then you can share your thoughts with your peers.</p>
+  <input placeholder='Write a message'  className='text-[#000000] text-center w-25 h-8 rounded-sm text-[12px] font-[500] '  />
+</div>
     </div>
   )
 }

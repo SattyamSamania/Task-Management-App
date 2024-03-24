@@ -10,7 +10,7 @@ import Mobile from '../assets/Mobile.jpeg'
 const Home = () => {
   return (
     
-    <div className='w-[100%] min-h-[100vh] flex-col '> 
+    <div className='w-[100%] min-h-[100vh] flex-col rounded-md '> 
     <h1 className=' text-[#0D062D] font-[600] text-[46px]  text-7xl m-10 '>Mobile App</h1>
 <div className='flex gap-3  '>
   <button className='w-[122px] h-[40px] text-[#787486] font-[500] text-[16px]  border-[#787486] border-[1px] rounded-md'>Filter</button>
@@ -20,7 +20,8 @@ const Home = () => {
 <div className=' flex flex-col md:flex-row justify-center pt-10 gap-5 '>
     <div className='bg-[#F5F5F5] w-[300px] h-[600px] rounded-lg '>
         <li className='text-4xl text-[#0D062D] font-[500] text-[16px] text-center list-disc'>To Do</li>
-        <hr className='bg-[#5030E5]      '/>
+      
+       <hr  className=' bg-[#5030E5] h-1'/>
 
         <div className='bg-[#FFFFFF] h-[174px] w-[270px] rounded-2xl p-3 m-4'>
           <h3 className=' text-[#0D062D] font-[600] text-[18px] '>Brainstorming</h3>
@@ -41,7 +42,7 @@ const Home = () => {
     </div>
     <div  className='bg-[#F5F5F5] w-[300px] h-[600px] rounded-lg border'>
     <li className='text-4xl  text-[#0D062D] font-[500] text-[16px]  text-center'>On Progress</li>
-    <hr/>
+    <hr className='bg-[#FFA500] h-1'/>
 
     <div className='bg-[#FFFFFF] h-[260px] w-[270px] rounded-2xl p-3 m-4'>
           <h3 className='text-[#0D062D] font-[600] text-[18px] '>Onboarding Illustrations</h3>
@@ -59,7 +60,7 @@ const Home = () => {
     </div>
     <div  className='bg-[#F5F5F5] w-[300px] h-[600px] rounded-lg border'>
     <li className='text-4xl  text-[#0D062D] font-[500] text-[16px]  text-center'>Done</li>
-    <hr/>
+    <hr className='bg-[#8BC48A] h-1'/>
 
     <div className='bg-[#FFFFFF] h-[260px] w-[270px] rounded-2xl p-3 m-4'>
           <h3 className='text-[#0D062D] font-[600] text-[18px] '>Mobile App Design</h3>
